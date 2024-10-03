@@ -11,6 +11,7 @@ Master - Salve Architecture
 1 - M
 Build/Execution is done using slaves (Windows, Mac, Linux)
 
+Process:
 create virtual environment using
 `python -m venv .venv`
 
