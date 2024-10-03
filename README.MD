@@ -10,3 +10,16 @@ GithubRepo🗃️ -> <- Jenkins Server (Automation Tool) 🗜️🖥️ -> Selen
 Master - Salve Architecture
 1 - M
 Build/Execution is done using slaves (Windows, Mac, Linux)
+
+create virtual environment using
+`python -m venv .venv`
+
+source this environment
+`Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process`
+`.\.venv\Scripts\Activate.ps1`
+
+install all the dependencies
+`pip install -r requirements.txt`
+
+Test the application
+`pytest test.py`
