@@ -54,4 +54,18 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 pip install -r requirements.txt
 ```
 
-docker run -p 8080:8080 -p 5000:5000 -v jenkins_home:home/Anas/jenkins_home --name -d jenkins/jenkins:lts
+---
+
+## **🔧 Running Jenkins Container**
+
+### **1. Run the Container**
+
+```bash
+docker run -p 8080:8080 -p 5000:5000 -v jenkins_home:/Anas/jenkins_home --name jenkins -d jenkins/jenkins:lts
+```
+
+### **2. Get the Password from docker logs**
+
+```bash
+docker logs <password>
+```
